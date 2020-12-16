@@ -16,6 +16,8 @@ jobs:
           pip install pandas
           pip install matplotlib
           pip install seaborn
+      - name: Run daily
+        run: erb index.erb.html > index.html
       - run: |
           date > generated.txt
           git config user.name github-actions
