@@ -1,3 +1,4 @@
+name: covid-page-update
 on:
   push:
     branches: [ master ]
