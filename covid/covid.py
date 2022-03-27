@@ -40,7 +40,7 @@ def doit():
     states = args.states
     variables = args.vars
     datfilename = args.data[0] + ".csv"
-    startdate = "2020-09-01"
+    startdate = "2022-01-01"
     dim = [4, 2.5]
     if args.data:
         print("covid: saving data in " + datfilename)

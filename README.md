@@ -1,4 +1,3 @@
-
 # Tech Debt
 
 - table of state names and population
