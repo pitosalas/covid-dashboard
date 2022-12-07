@@ -2,8 +2,8 @@ name: covid-page-update
 on:
   push:
     branches: [ main ]
-  schedule:
-    - cron: 0 * * * *
+#   schedule:
+#     - cron: 0 * * * *
 
 jobs:
   build:
